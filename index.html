@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FPV Mallorca - Vive la Experiencia de Volar</title>
+    <meta name="description" content="Disfruta de una experiencia única de vuelo FPV en Palma de Mallorca. Vuela con las últimas gafas FPV y siente la emoción de volar.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlaces a CSS y Fuentes -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+    <!-- Inicio de la Página -->
+    <header id="header">
+        <!-- Barra de Navegación -->
+        <nav id="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#header">FPV Mallorca</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#zonas">Zonas</a></li>
+                    <li><a href="#paquetes">Paquetes</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sección Hero -->
+        <div class="hero">
+            <div class="overlay"></div>
+            <video autoplay muted loop id="hero-video">
+                <source src="videos/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Vuela. Siente. Vive.</h1>
+                <p>La mejor experiencia FPV en Palma de Mallorca</p>
+                <a href="#paquetes" class="btn">Reserva Ahora</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de Experiencia -->
+    <section id="experiencia" class="section">
+        <div class="container">
+            <h2>La Experiencia FPV Definitiva</h2>
+            <p class="section-subtitle">Sumérgete en el mundo del vuelo en primera persona con nuestras avanzadas gafas FPV y siente la adrenalina de volar sobre los paisajes más impresionantes de Mallorca.</p>
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <i class="fas fa-vr-cardboard fa-3x"></i>
+                    <h3>Tecnología de Punta</h3>
+                    <p>Utilizamos las últimas gafas FPV para ofrecerte una experiencia inmersiva incomparable.</p>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-map-marked-alt fa-3x"></i>
+                    <h3>Zonas Exclusivas</h3>
+                    <p>Vuela sobre playas, montañas y ciudades, eligiendo entre nuestras zonas predefinidas.</p>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-user-shield fa-3x"></i>
+                    <h3>Seguridad Ante Todo</h3>
+                    <p>Nuestros pilotos certificados garantizan una experiencia segura y emocionante.</p>
+                </div>
+                <div class="experience-item">
+                    <i class="fas fa-video fa-3x"></i>
+                    <h3>Recuerdos Inolvidables</h3>
+                    <p>Llévate a casa videos en alta definición de tu experiencia de vuelo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Zonas -->
+    <section id="zonas" class="section bg-light">
+        <div class="container">
+            <h2>Nuestras Zonas de Vuelo</h2>
+            <p class="section-subtitle">Explora los lugares más emblemáticos de Palma de Mallorca desde una perspectiva única.</p>
+            <div class="zones-grid">
+                <div class="zone-item">
+                    <img src="images/zone-playa.jpg" alt="Playa de Palma">
+                    <div class="zone-overlay">
+                        <h3>Playa de Palma</h3>
+                        <p>Vuela sobre las cristalinas aguas y las arenas doradas de la costa.</p>
+                    </div>
+                </div>
+                <div class="zone-item">
+                    <img src="images/zone-montana.jpg" alt="Sierra de Tramontana">
+                    <div class="zone-overlay">
+                        <h3>Sierra de Tramontana</h3>
+                        <p>Descubre la majestuosidad de las montañas y sus paisajes verdes.</p>
+                    </div>
+                </div>
+                <div class="zone-item">
+                    <img src="images/zone-ciudad.jpg" alt="Casco Antiguo">
+                    <div class="zone-overlay">
+                        <h3>Casco Antiguo</h3>
+                        <p>Sobrevuela la arquitectura histórica y las calles pintorescas de la ciudad.</p>
+                    </div>
+                </div>
+                <div class="zone-item">
+                    <img src="images/zone-cabo.jpg" alt="Cabo Formentor">
+                    <div class="zone-overlay">
+                        <h3>Cabo Formentor</h3>
+                        <p>Experimenta vistas impresionantes desde el punto más al norte de la isla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Paquetes -->
+    <section id="paquetes" class="section">
+        <div class="container">
+            <h2>Paquetes y Precios</h2>
+            <p class="section-subtitle">Elige el paquete que mejor se adapte a tus necesidades y prepárate para volar.</p>
+            <div class="pricing-grid">
+                <!-- Paquete Básico -->
+                <div class="pricing-card">
+                    <h3>Experiencia Básica</h3>
+                    <div class="price">99€</div>
+                    <ul>
+                        <li>25 minutos de vuelo</li>
+                        <li>Gafas FPV estándar</li>
+                        <li>Piloto certificado</li>
+                    </ul>
+                    <a href="#contacto" class="btn">Reserva Ahora</a>
+                </div>
+                <!-- Paquete Premium -->
+                <div class="pricing-card featured">
+                    <h3>Experiencia Premium</h3>
+                    <div class="price">149€</div>
+                    <ul>
+                        <li>25 minutos de vuelo</li>
+                        <li>Gafas FPV de última generación</li>
+                        <li>Video HD del vuelo</li>
+                        <li>Piloto certificado</li>
+                    </ul>
+                    <a href="#contacto" class="btn">Reserva Ahora</a>
+                </div>
+                <!-- Paquete VIP -->
+                <div class="pricing-card">
+                    <h3>Experiencia VIP</h3>
+                    <div class="price">199€</div>
+                    <ul>
+                        <li>25 minutos de vuelo</li>
+                        <li>Gafas FPV exclusivas</li>
+                        <li>Video 4K del vuelo</li>
+                        <li>Souvenir personalizado</li>
+                        <li>Piloto certificado</li>
+                    </ul>
+                    <a href="#contacto" class="btn">Reserva Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="section bg-dark">
+        <div class="container">
+            <h2>¿Qué Dicen Nuestros Clientes?</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <p>"Una experiencia inolvidable. Sentí que volaba de verdad. ¡Lo recomiendo al 100%!"</p>
+                    <h4>- Laura Gómez</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"El equipo es muy profesional y las vistas son espectaculares. ¡Volveré seguro!"</p>
+                    <h4>- Carlos Martínez</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"La mejor actividad que he hecho en Mallorca. La sensación es indescriptible."</p>
+                    <h4>- Ana López</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto y Reservas</h2>
+            <p class="section-subtitle">Completa el siguiente formulario y nos pondremos en contacto contigo para confirmar tu reserva.</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><i class="fas fa-phone-alt"></i> +34 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@fpvmallorca.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle de la Experiencia 123, Palma de Mallorca</p>
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="post" id="reservation-form">
+                        <div class="form-group">
+                            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telefono" placeholder="Tu Teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="paquete" required>
+                                <option value="" disabled selected>Selecciona un Paquete</option>
+                                <option value="basico">Experiencia Básica - 99€</option>
+                                <option value="premium">Experiencia Premium - 149€</option>
+                                <option value="vip">Experiencia VIP - 199€</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" name="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensaje" placeholder="Mensaje Adicional"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>FPV Mallorca</h3>
+                    <p>Ofrecemos experiencias de vuelo FPV únicas en Palma de Mallorca. Únete a nosotros y vive la emoción de volar.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#zonas">Zonas</a></li>
+                        <li><a href="#paquetes">Paquetes</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Suscríbete</h3>
+                    <p>Recibe las últimas noticias y ofertas especiales.</p>
+                    <form action="#" method="post" id="newsletter-form">
+                        <input type="email" name="email" placeholder="Tu Email" required>
+                        <button type="submit" class="btn">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FPV Mallorca. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
